@@ -1,0 +1,61 @@
+	Today's Task [15-07-2024]
+
+Main :  Main branch is master branch of the repo.
+
+---------
+
+Create a new branch:
+
+git branch <new-branch-name>
+	or 
+git checkout -b <new-branch-name>
+
+---------
+
+Switch Branch:
+
+git checkout <branch-name>
+switching one branch to another branch.
+
+---------
+
+=> after making changes 
+
+git add . #adding all the changes
+	or
+git add <file> #adding specific files only
+
+git commit -m "<Commit Message>"
+
+git push origin # added changes on new-branch Repo
+
+--------
+
+
+Merging Concept :
+
+git checkout main 
+
+git merge <branch name>
+
+	or 
+
+other way, I want to Make Pull Request (Because repo manager want to verify that and want to Approve)
+
+1) want to go the git hub repo
+2) Select <Pull Request> section
+3) select <Create Pull request>
+4) compare new-branch-name  to Base Main
+"After all the commits will show in comparing Changes"
+5) click < Add pull request > and add Title and Desc.
+
+--------
+
+
+
+Todays Task I have created Five Feature Branch ,
+I have added one by one features to merge with main,
+Feature-Two branch have a up to feature-Four commits,
+Feature-Five Branch and Main was merged with  Pull request only, otherwise used only with git merge
+
+Repo link: https://github.com/GowthamSFSD/working_with_git/
